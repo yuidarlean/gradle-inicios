@@ -1,0 +1,33 @@
+task variables1{
+    ext {
+      nombre = "ejemplo"
+      correo = "correo@correo.cl"
+    }
+
+    ext.estado = "activo"
+}
+
+task variables2 << {
+
+    println " nombre: " + variables1.nombre
+    println " correo: " + variables1.correo
+    println " estado: " + variables1.estado
+}
+
+
+task variables3 {
+    ext{
+      ciudad = "santiago"
+    }
+
+    doLast{
+      println "ciudad : "+ ciudad
+    }
+}
+
+task variables4 << {
+    String nombre = "ejemplo4"
+    Date dia = new Date()
+
+    println "ejecutando " + nombre + " el día " + dia
+}
