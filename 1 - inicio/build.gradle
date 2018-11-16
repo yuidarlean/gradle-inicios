@@ -1,0 +1,13 @@
+task ejemplo1 << {
+  println "hola mundo"
+}
+
+task ejemplo2 {
+
+  doLast {
+    println "hola mundo ejemplo 2"
+  }
+}
+
+
+// para ejecuar en la linea de comando
