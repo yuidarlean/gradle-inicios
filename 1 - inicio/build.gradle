@@ -10,4 +10,6 @@ task ejemplo2 {
 }
 
 
-// para ejecuar en la linea de comando
+// el ejemplo1 es la forma simplificada de escribir un task.
+// el ejemplo2 es la forma completa de escribe un task.
+// de las dos formas esta bien escribir un task.
